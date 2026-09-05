@@ -1,6 +1,6 @@
 services:
   wxread:
-    image: ghcr.io/YOUR_GITHUB_USER/wxread-container:latest
+    image: ghcr.io/usirukesikam/wxread-docker:latest
     container_name: wxread
     restart: unless-stopped
     env_file:
