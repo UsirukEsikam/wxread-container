@@ -1,0 +1,13 @@
+services:
+  wxread:
+    image: ghcr.io/YOUR_GITHUB_USER/wxread-container:latest
+    container_name: wxread
+    restart: unless-stopped
+    env_file:
+      - path: ./wxread.env
+        format: raw
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

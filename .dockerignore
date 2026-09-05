@@ -1,0 +1,11 @@
+.git
+.github
+wxread.env
+wxread.env.example
+README.md
+__pycache__
+*.py[cod]
+upstream/.git
+upstream/.github
+upstream/.idea
+upstream/Dockerfile
